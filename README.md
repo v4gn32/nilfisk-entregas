@@ -1,110 +1,90 @@
-# MRECURSIVA
+# SISTEMA DE ENTREGAS NILFISK
 
-### Dados Acadêmicos
+### Dados do Projeto
 
-- **CURSO:** `TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
-- **DISCIPLINA:** `Eixo 5 - Projeto: Desenvolvimento de um "Sistema Sociotécnico Inovador"`
-- **TURMA/PERIODO:** `5º SEMESTRE - Turma 05 - 2025/1`
+- **EMPRESA:** `Nilfisk South America`
+- **ÁREA:** `Gestão de Entregas e Logística`
+- **PROJETO:** `Sistema de Entregas Nilfisk`
+- **SEMESTRE:** `2025/2`
 
 ---
 
-## Visão Geral do MRECURSIVA
+## Visão Geral do Sistema
 
 **Objetivo Principal:** <br>
-Desenvolver uma plataforma online para **avaliação colaborativa de Objetos de Aprendizagem (OAs)** — como jogos digitais educativos — por professores e especialistas em educação, superando limitações de métodos analíticos tradicionais.
+Desenvolver um sistema de gestão de **entregas da Nilfisk** que permita o acompanhamento eficiente de pedidos, otimização da logística e transparência entre clientes, motoristas e gestores.
 
 **Funcionalidades-Chave:** <br>
 
-1. **Cadastro e Avaliação de OAs:**
-   - Critérios organizados em 4 eixos:
-     - **Fundação Pedagógica**
-     - **Conteúdo**
-     - **Interação**
-     - **Tecnologia**
-2. **Personalização:**
-   - Administradores podem configurar **modelos de avaliação adaptáveis**.
-3. **Relatpórios Dinâmicos:**
-   - Gráficos de Radar + análise textuais.
-   - Identificação de **potencialidades e limitaçõies** dos OAs.
-4. **Avaliação Contínua**:
-   - Notas calculadas automaticamente a cada nova contribuição.
-   - Visão **dinâmica e precisa** do valor educacional.
+1. **Gestão de Pedidos:**
+   - Cadastro de entregas.
+   - Acompanhamento do status em tempo real.
+2. **Roteirização:**
+   - Definição e otimização de rotas.
+   - Associação de motoristas.
+3. **Monitoramento:**
+   - Atualizações automáticas de status (em preparação, em rota, entregue).
+   - Histórico de movimentações.
+4. **Relatórios Gerenciais:**
+   - Indicadores de desempenho (tempo médio de entrega, SLA).
+   - Exportação de relatórios para análise.
 
 ---
 
 ## Diferenciais
 
-✓ **Automatização** de tabulação e análise de resultados. <br>
-✓ **Colaborativo** (Multiplos Avaliadores). <br>
-✓ **Relatórios Visuais** para tomada de decisão pedagógica.
+✓ **Automatização** do fluxo de entregas. <br>
+✓ **Transparência** para clientes e gestores. <br>
+✓ **Relatórios Visuais** para apoio à tomada de decisão. <br>
+✓ **Escalabilidade** para múltiplas filiais.
 
 ---
 
 ## 📌 Funcionalidades Detalhadas
 
-1. 📥**Cadastro de OAs**
-   - **O que faz**: Professores registram novos objetos de aprendizagem (OAs).
+1. 📥 **Cadastro de Entregas**
+   - **O que faz:** Permite que a equipe registre novos pedidos no sistema.
    - **Campos principais:**
-     - Nome do OA
-     - Tipo (ex.: jogo digital, simulação, video).
-     - Descrição do conteúdo.
-     - Link/Acesso
-2. 🔍**Avaliação Colaborativa**
+     - Número do pedido.
+     - Cliente.
+     - Endereço de entrega.
+     - Data prevista.
 
+2. 🚚 **Roteirização e Atribuição**
    - **Método:**
-     - Notas **quantitativas** (escala de 1 a 5) + feedback qualitativo (comentários).
-   - **Eixo de Avaliação:**
-     - ✅ Fundação Pedagógica
-     - ✅ Conteúdo
-     - ✅ Interação
-     - ✅ Tecnologia
+     - Definição de rotas de forma manual ou automática.
+     - Associação de pedidos aos motoristas.
 
-3. ⚙️ **Modelos Personalizados**
-
-   - **Flexibilidade:** Administradores ajustam critérios de avaliação conforme o tipo de OA (ex.: um jogo educativo vs. um vídeo tutorial).
-   - **Exemplo:** Criar um modelo específico para "Jogos de Matemática" com critérios adicionais como "Dificuldade Progresiva".
-
-4. 📊 **Relatórios Detalhados**
-
-   - **Saídas:**
-     - **Gráfico de Radar:** Comparação visual entre os 4 eixos.
-     - **Análise Textual:** Síntese dos comentários por eixo (ex.: "87% dos avaliadores destacaram a clareza do conteúdo").
-
-5. 🔄 **Nota Dinâmica**
-
+3. 🔍 **Monitoramento em Tempo Real**
    - **Como funciona:**
-     - Média recalculada automaticamente a cada nova avaliação.
-     - Destaque para OAs com melhores pontuações (ranking).
+     - Status atualizado pelo motorista via aplicativo/web.
+     - Cliente e gestor acompanham todo o percurso.
 
-6. 🌐 Acesso Público
-   - Transparência: Qualquer usuário pode consultar as notas médias finais.
-   - Benefício: Professores escolhem OAs com base em avaliações consolidadas.
+4. 📊 **Relatórios**
+   - **Saídas:**
+     - Indicadores de eficiência logística.
+     - Exportação em PDF/Excel.
+     - Dashboards visuais para acompanhamento.
 
 ---
 
 ## 👥 INTEGRANTES DA EQUIPE
 
-| Nome                                 | Função                  |
-| ------------------------------------ | ----------------------- |
-| Evandro Kumasaka                     | Desenvolvimento/Análise |
-| Gabrielly Cristiny Gonçalves Andrade | Design/UX               |
-| João Gabriel Pereira da Silva        | Back-end/Dados          |
-| Leonardo Igor Araújo de Souza        | Front-end/Testes        |
-| Thiago Souza Dias                    | Gestão de Projeto       |
-| Vagner de Oliveira Florencio         | Documentação/Pesquisa   |
+| Nome               | Função                  |
+| ------------------ | ----------------------- |
+| Evandro Kamasuki   | Desenvolvimento/Análise |
+| Vagner Florencio   | Desenvolvimento/Análise |
 
-## Orientador:
-
-🔹 Prof. Humberto Azevedo Nigri do Carmo
+---
 
 ## 📝 INSTRUÇÕES DE UTILIZAÇÃO (Aguardando 1ª Versão)
 
-(Modelo sugerido para quando o sistema estiver pronto)
-
 1. **Pré-requisitos**
    - **Servidor:** Node.js (v18+) + npm/yarn.
-   - **Banco de Dados:** MongoDB Atlas ou local.
-   - **Dependências:** Listadas em package.json (instaladas via npm install).
+   - **Banco de Dados:** PostgreSQL ou MySQL.
+   - **Dependências:** Listadas em `package.json` (instaladas via `npm install`).
+
+---
 
 # Documentação
 
