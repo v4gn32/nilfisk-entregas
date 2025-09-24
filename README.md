@@ -2,10 +2,9 @@
 
 ### Dados do Projeto
 
-- **EMPRESA:** `Nilfisk South America`
+- **EMPRESA:** `Nilfisk Brasil`
 - **ÁREA:** `Gestão de Entregas e Logística`
 - **PROJETO:** `Sistema de Entregas Nilfisk`
-- **SEMESTRE:** `2025/2`
 
 ---
 
@@ -72,7 +71,7 @@ Desenvolver um sistema de gestão de **entregas da Nilfisk** que permita o acomp
 
 | Nome               | Função                  |
 | ------------------ | ----------------------- |
-| Evandro Kamasuki   | Desenvolvimento/Análise |
+| Evandro Kumasaka   | Desenvolvimento/Análise |
 | Vagner Florencio   | Desenvolvimento/Análise |
 
 ---
